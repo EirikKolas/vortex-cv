@@ -50,9 +50,9 @@ RUN pip install opencv-python==3.4.2.17 && \
     pip install opencv-contrib-python==3.4.2.17
 
 # catkin build 
-RUN source /opt/ros/${distro}/setup.bash && \
-    cd ./vortex_ws && \
-    catkin build
+#RUN source /opt/ros/${distro}/setup.bash && \
+#    cd ./vortex_ws && \
+#    catkin build
 
 #ENTRYPOINT ["/entrypoint.sh"]
 CMD ["/bin/bash"]
